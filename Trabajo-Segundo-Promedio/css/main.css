@@ -2,6 +2,10 @@
 body{
 	background: red;
 }
+
+header {
+	background-color: green;
+}
 .clearfix {
   *zoom: 1;
 }
