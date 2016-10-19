@@ -2,6 +2,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: 'Roboto', sans-serif;
 }
 .clearfix {
   *zoom: 1;
@@ -63,10 +64,11 @@
 	margin: auto;
 	margin-top: 1.5%;
 }
-ul{
+
+.alinear-listado ul{
 	display: flex;
 }
-ul li{
+.alinear-listado ul li{
 	list-style: none;
 	padding: 10px;
 	margin-right: 5%;
@@ -78,12 +80,12 @@ ul li{
  	color: white;
  	font-size: 16px;
  }
- ul li:hover{
+.alinear-listado ul li:hover{
  	background: #444444;
  	color:white;
  	border: none;
  }
- a:hover{
+.alinear-listado a:hover{
  	color:white;
  	text-decoration: none;
  }
@@ -95,11 +97,68 @@ ul li{
  	color: white;
  	margin-left: 15vh;
  }
+ 
 .mensaje-1{
 	font-size: 190%;
 }
+
 h1{
 	font-size: 320%;
+}
+
+.FR ul {
+	list-style: none;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.FR ul  li{
+	list-style: none;
+	display: inline-block;
+}
+
+.port {
+	color: #fff;
+	background: #2DCC70;
+	padding:50px 80px;
+	height: 170px;
+	margin: 0;
+	width: 100%;
+
+}
+
+.port h2, .port h4, .port li  {
+	margin: 0;
+}
+
+.port .FL {
+	float: left;
+}
+
+.port .FR {
+	float: right;
+	margin-top: 10px;
+	width: 300px;
+}
+
+.port .ccc {
+	color: #ccc;
+}
+
+.portimg p {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.portimg {
+	padding: 40px 50px;
+	width: 100%;
+}
+
+.portimg img {
+	margin-right: 30px;
+	width: 340px;
+	height: 229px;
 }
 .redes-sociales{
 	width: 100%;
