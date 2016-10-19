@@ -101,3 +101,46 @@ ul li{
 h1{
 	font-size: 320%;
 }
+.redes-sociales{
+	width: 100%;
+	height: 35vh;
+	background: #2ecc71;
+	display: inline-block;
+}
+.general-red-sociales{
+	width: 90%;
+	height: 28vh;
+	margin:auto;
+	margin-top: 4vh;
+
+}
+.cuadrado{
+	width: 30%;
+	height: 100%;
+	display: inline-block;
+}
+.cuadrado1{
+	width: 30%;
+	height: 100%;
+	display: inline-block;
+	margin-right: 4.5%;
+	margin-left:4.5%;
+}
+.cuadrado2{
+	width: 30%;
+	height: 100%;
+	display: inline-block;
+}
+.cuadro-texto{
+	width: 75%;
+	height: 100%;
+	float: right;
+}
+.tiulo-text{
+	color: white;
+	font-size: 4vh;
+}
+.campo-texto{
+	color: white;
+	font-size: 2.2vh;
+}
