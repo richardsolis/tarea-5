@@ -19,6 +19,7 @@
 }
 .contenedor-total{
 	width: 100%;
+	min-width: 1000px;
 }
 
 .contenedor-imagen{
@@ -202,4 +203,34 @@ h1{
 .campo-texto{
 	color: white;
 	font-size: 2.2vh;
+}
+@media (max-width:700px ){
+.contenedor-total{
+	width: 700px;
+}
+
+
+
+.cuadrado{
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+
+}
+.cuadrado1{
+	width: 100%;
+	display: block;
+	margin-top: 20px;
+	margin: 0;
+	margin-top: 15px;
+}
+.cuadrado2{
+	width: 100%;
+	display: block;
+	margin-top: 20px;
+}
+.redes-sociales{
+	width: 100%;
+	height: 130vh;
+}
 }
