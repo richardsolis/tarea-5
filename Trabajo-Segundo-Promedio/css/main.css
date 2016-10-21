@@ -19,7 +19,7 @@
 }
 .contenedor-total{
 	width: 100%;
-	min-width: 1000px;
+	min-width: 305px;
 }
 
 .contenedor-imagen{
@@ -100,12 +100,13 @@
  }
  
 .mensaje-1{
-	font-size: 190%;
+	font-size: 3vh;
 }
 
 h1{
-	font-size: 320%;
+	font-size: 5vh;
 }
+
 
 .FR ul {
 	list-style: none;
@@ -207,11 +208,12 @@ h1{
 	font-size: 2.2vh;
 }
 @media (max-width:700px ){
-.contenedor-total{
-	width: 700px;
+.alinear-listado{
+	display: none;
 }
-
-
+.mensaje-contenedor{
+	text-align: center;
+}
 
 .cuadrado{
 	display: block;
@@ -233,8 +235,9 @@ h1{
 }
 .redes-sociales{
 	width: 100%;
-	height: 130vh;
+	height: 95vh;
 }
+
 }
 
 @media (max-width: 768px){
