@@ -207,6 +207,107 @@ h1{
 	color: white;
 	font-size: 2.2vh;
 }
+.project-general{
+	width: 100%;
+	height: 50vh;
+	background: red;
+	display: inline-block;
+}
+.alinear-project{
+	width: 100%;
+	height: 30vh;
+	background: blue;
+	margin-top: 11vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.whatare p {
+	padding: 0px 100px;
+}
+
+.weare {
+	padding: 0px 100px;
+}
+
+.ourS {
+	margin-bottom: 20px;
+}
+
+.skillscss {
+	width: 80%;
+	background: #d9534f;
+	border: 1px solid black;
+	padding: 7px;
+	color: #fff;
+	border-radius: 6px 0px 0px 6px;
+}
+
+.skillsWP {
+	width: 60%;
+	background: #5cb85c;
+	border: 1px solid black;
+	padding: 7px;
+	color: #fff;
+	border-radius: 6px 0px 0px 6px;
+}
+
+.skillsJ {
+	width: 45%;
+	background: #428bca;
+	margin-right: 50px;
+	border: 1px solid black;
+	padding: 7px;
+	color: #fff;
+	border-radius: 6px 0px 0px 6px;
+}
+
+.skillsD {
+	width: 50%;
+	background: #5bc0de;
+	border: 1px solid black;
+	padding: 7px;
+	color: #fff;
+	border-radius: 6px 0px 0px 6px;
+}
+
+.skillsPHP {
+	width: 65%;
+	background: #f0ad4e;
+	border: 1px solid black;
+	padding: 7px;
+	color: #fff;
+	border-radius: 6px 0px 0px 6px;
+}
+
+.meettext h3, .meettext p {
+	text-align: center;
+}
+
+.davidJ {
+	padding: 0px 100px;
+}
+
 @media (max-width:700px ){
 .alinear-listado{
 	display: none;

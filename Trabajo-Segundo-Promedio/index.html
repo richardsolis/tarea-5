@@ -22,6 +22,23 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+    	function detectmob() {
+		   if(window.innerWidth <= 800 && window.innerHeight <= 600) {
+		     return true;
+		   } else {
+		     return false;
+		   }
+		}
+
+		if (detectmob())
+			location.href="http://google.com";
+		else
+			console.log("pc");
+
+    </script>
+
   </head>
   <div class="contenedor-total">      
     <body>
@@ -79,6 +96,13 @@
           </div>
           </div>
         </div>
+    </section>
+    <section>
+      <div class="project-general">
+        <div class="alinear-project">
+          
+        </div>
+      </div>
     </section>
     </body>
 </div>
