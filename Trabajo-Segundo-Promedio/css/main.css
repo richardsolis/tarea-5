@@ -368,6 +368,31 @@ h1{
 .davidJ {
 	padding: 0px 100px;
 }
+/*TODO CONTACT*/
+
+.contact-general{
+	width: 100%;
+	height: 70vh;
+	display: inline-block;
+}
+.centrar-contact{
+	width: 85%;
+	height: 65vh;
+	margin: auto;
+	background: blue;
+	margin-top: 2.5vh;
+}
+.cuadro-contac1{
+	width: 33%;
+	height: 90%;
+	background: yellow;
+	display: inline-block;
+}
+
+
+
+
+
 /*RESPONSIVE*/
 @media (max-width: 768px){
 
