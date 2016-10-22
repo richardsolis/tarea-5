@@ -377,17 +377,62 @@ h1{
 }
 .centrar-contact{
 	width: 85%;
-	height: 65vh;
+	height: 60vh;
 	margin: auto;
-	background: blue;
-	margin-top: 2.5vh;
+	margin-top: 5vh;
 }
-.cuadro-contac1{
-	width: 33%;
-	height: 90%;
-	background: yellow;
+.cuadro-contac3{
+	width: 31%;
+	height: 95%;
 	display: inline-block;
 }
+.cuadro-contac1{
+	width: 31%;
+	height: 100%;
+	display: inline-block;
+}
+.cuadro-contac2{
+	width: 31%;
+	height: 90%;
+	display: inline-block;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.solucion{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.input-contact{
+	width: 100%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	padding: 1vh;
+	font-size: 2.3vh;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+}
+
+.boton-contact{
+	width:25vh;
+	height: 6vh;
+	border-radius: 5px;
+	border: 1px solid #357ebd;
+	font-size: 2.5vh;
+	color:white;
+	background: #428bca;
+}
+.textarea-contact{
+	width: 100%;
+	height: 85%;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	resize: none;
+}
+
+
+
+
 
 
 
@@ -458,6 +503,19 @@ h1{
 	width: 100%;
 	display: block;
 }
+.cuadro-contac1{
+	display: block;
+	width: 100%;
+}
+.cuadro-contac2{
+	display: block;
+	width: 100%;
+}
+.cuadro-contac3{
+	display: block;
+	width: 100%;
+}
+
 
 }
 @media (max-width: 900px){
