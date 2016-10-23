@@ -19,7 +19,7 @@
 }
 .contenedor-total{
 	width: 100%;
-	min-width: 1000px;
+	min-width: 768px;
 }
 
 .contenedor-imagen{
