@@ -369,8 +369,49 @@ h1{
 	text-align: center;
 }
 
+.davidJ p {
+	color: #b3b3b3;
+}
+
+.davidJ h4 {
+	font-size: 16px;
+}
+
 .davidJ {
 	padding: 0px 100px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.davidJ ul .blue {
+	background: #3B5998;
+}
+
+.davidJ ul .skyblue {
+	background: #5DA9DD;
+}
+
+.davidJ ul .invi {
+	background: #1686B0;
+}
+
+.davidJ ul li{
+	display: inline-block;
+	background: #D62020;
+	border-radius: 100px;
+	width: 35px;
+	height: 35px;
+}
+
+
+.davidJ ul li i {
+	color: #fff;
+	vertical-align: middle;
+	margin-top: 9px;
+}
+
+.davidJ img {
+	border-radius: 100px;
 }
 /*TODO CONTACT*/
 
