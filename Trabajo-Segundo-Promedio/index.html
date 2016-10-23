@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | Flat Theme</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+    <title>About Us | Flat Theme</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/grid-system.css">
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/footer.css">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -19,26 +22,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-
-    <script>
-    	function detectmob() {
-		   if(window.innerWidth <= 800 && window.innerHeight <= 600) {
-		     return true;
-		   } else {
-		     return false;
-		   }
-		}
-
-		if (detectmob())
-			location.href="http://google.com";
-		else
-			console.log("pc");
-
-    </script>
-
   </head>
   <div class="contenedor-total">      
     <body>
@@ -168,6 +151,111 @@
         </div>
       </div>
     </section>
+    <section class="footer">
+    <div class="row footer1">
+        <div class="col-3 AU">
+            <h3>About Us</h3>
+            <p>Pellentesque habitatn morbi tristique
+            senectus et netus et malesuada fames ac turpis
+            egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+            <p class="abouttext last-list">Pellentesque habitant morbi tristique senectus.</p>
+        </div>
+        <div class="col-3 dots AU">
+            <h3>Company</h3>
+            <ul class="footerul">
+                <li>
+                    <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>The Company</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Our Team</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Our Partners</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Our Services</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Faq</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact Us</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Terms of Use</a>
+                </li>
+                <li class="last-list">
+                    <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Copyright</a>
+                </li>
+            </ul>           
+        </div>
+        <div class="col-3 AU">
+            <h3>Latest Blog</h3>
+            <div class="col-12 blogimg">
+                <div class="col-3 blogimg LB">
+                    <img src="images/blog/thumb1.jpg">
+                </div>
+                <div class="col-8 pad">
+                    <p>Pellentesque habitatn morbi tristique senectus</p>
+                    <p class="p2">Posted 17 Aug 2013</p>
+                </div>
+            </div>
+            <div class="col-12 blogimg ">
+                <div class="col-3 blogimg LB">
+                    <img src="images/blog/thumb2.jpg">
+                </div>
+                <div class="col-8 pad">
+                    <p>Pellentesque habitatn morbi tristique senectus</p>
+                    <p class="p2">Posted 13 Sep 2013</p>
+                </div>
+            </div>
+            <div class="col-12 blogimg">
+                <div class="col-3 blogimg LB">
+                    <img src="images/blog/thumb3.jpg">
+                </div>
+                <div class="col-8 pad">
+                    <p>Pellentesque habitatn morbi tristique senectus</p>
+                    <p class="p2">Posted 11 Jul 2013</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 AU">
+            <h3>Address</h3>
+            <h5 class="twit">Twitter, Inc.</h5>
+            <p> 795 Folsom Ave, Suite 600  
+            <br>San Francisco, CA 94107<br>
+            P: (123) 456-7890</p>
+
+            <h3 class="news">Newsletter</h3>
+            <input class="email" type="text" name="text" placeholder="Enter your email">
+            <input class="btngo" type="button" name="Go" value="Go!">
+        </div>
+    </div>
+    <div class="row footer2">
+        <div class="col-4 AU">
+            <h5 class="twit FL">© 2013 ShapeBootstrap. All Rights Reserved.</h5>
+        </div>
+        <div class="col-8 FR">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
     </body>
 </div>
 </html>
