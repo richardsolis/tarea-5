@@ -650,6 +650,7 @@ h1{
 	.r16 {
 		width: 16.66666%;
 		padding: 0;
+		margin-right: 10px;
 	}
 
 	.BG {
@@ -663,6 +664,14 @@ h1{
 
 	.clients-general {
 		margin-top: 50px;
+	}
+
+	.whatwedo {
+		margin: 0px;
+	}
+
+	.whatwedo i {
+		font-size: 20px;
 	}
 }
 
