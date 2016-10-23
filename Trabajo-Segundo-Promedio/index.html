@@ -22,6 +22,23 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+    	function detectmob() {
+		   if(window.innerWidth <= 800 && window.innerHeight <= 600) {
+		     return true;
+		   } else {
+		     return false;
+		   }
+		}
+
+		if (detectmob())
+			location.href="http://google.com";
+		else
+			console.log("pc");
+
+    </script>
+
   </head>
   <div class="contenedor-total">      
     <body>
@@ -79,6 +96,77 @@
           </div>
           </div>
         </div>
+    </section>
+    <section>
+      <div class="project-general">
+        <div class="alineado-project">
+          <div class="cuadro-texto-project">
+          <div class="texto1">
+          <h4 style="font-size:4vh">Our Latest Porject</h4>
+            <p style="font-size:2vh">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button class="botones-project"><</button>
+            <button class="botones-project">></button>
+          </div>
+            
+          </div>
+          <div class="conjunto-img">
+            <div class="project-img">
+              <div class="img-dentro">
+                <img src="./images/portfolio/recent/item1.png" width="100%" height="100%;" style="float:left">
+                <p style="text-align: center;font-size:2vh;">Nova - Corporate site temple</p>
+              </div>
+            </div>
+            <div class="project-img">
+              <div class="img-dentro">
+                <img src="./images/portfolio/recent/item2.png" width="100%" height="100%;" style="float:left">
+                <p style="text-align: center; font-size:2vh;">Fornax - Apps site template</p>
+              </div>
+            </div>
+            <div class="project-img">
+              <div class="img-dentro">
+                <img src="./images/portfolio/recent/item3.png" width="100%" height="100%;" style="float:left">
+                <p style="text-align: center;font-size:2vh;">Flat Theme - Business Theme</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <div class="clients-general">
+        <div class="centrar-texto-clientes">
+          <h3 style="text-align:center; color:white;">What our clients say</h3>
+          <p style="text-align:center; color:white;">pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas</p>
+          <div class="caja-texto-completo">
+            <div class="col-1">
+              <div class="box-text-1">
+                <h3 style="color:white; font-size:2.7vh;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor.</h3>
+                <p style="color:white;">_Someone famous in source title</p>
+              </div>
+               <div class="box-text-1">
+                <h3 style="color:white; font-size:2.7vh;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor.</h3>
+                <p style="color:white;">_Someone famous in source title</p>
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="box-text-1">
+                <h3 style="color:white; font-size:2.7vh;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor.</h3>
+                <p style="color:white;">_Someone famous in source title</p>
+              </div>
+               <div class="box-text-1">
+                <h3 style="color:white; font-size:2.7vh;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor.</h3>
+                <p style="color:white;">_Someone famous in source title</p>
+              </div>
+            
+          </div>
+        </div>
+      </div>
     </section>
     </body>
 </div>

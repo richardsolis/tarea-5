@@ -19,7 +19,10 @@
 }
 .contenedor-total{
 	width: 100%;
+<<<<<<< HEAD
 	min-width: 768px;
+=======
+>>>>>>> 3c1d294dc251ae8535406a307c832383918048f6
 }
 
 .contenedor-imagen{
@@ -28,7 +31,9 @@
 	background-image: url(../images/slider/bg1.jpg);
 	background-size: cover;
 	display: inline-block;
+	background-position: top; 
 }
+/*todo sobre el nav*/
 .nav-general{
 	width: 100%;
 	height: 10vh;
@@ -90,6 +95,7 @@
  	color:white;
  	text-decoration: none;
  }
+ /*todo sobre banner*/
  .mensaje-contenedor{
  	width: 60%;
  	height: 20vh;
@@ -100,12 +106,13 @@
  }
  
 .mensaje-1{
-	font-size: 190%;
+	font-size: 3vh;
 }
 
 h1{
-	font-size: 320%;
+	font-size: 5vh;
 }
+
 
 .FR ul {
 	list-style: none;
@@ -163,6 +170,7 @@ h1{
 	box-shadow: -1px 0px 5px -1px;
 	border: 3px solid white;
 }
+/*TODO REDES SOCIALES*/
 .redes-sociales{
 	width: 100%;
 	height: 35vh;
@@ -206,37 +214,235 @@ h1{
 	color: white;
 	font-size: 2.2vh;
 }
-@media (max-width:700px ){
-.contenedor-total{
-	width: 700px;
-}
 
+/*PROJECT TODO*/
 
-
-.cuadrado{
-	display: block;
+.project-general{
 	width: 100%;
-	margin-top: 20px;
+	height: 45vh;
+	display: inline-block;
+}
+.alineado-project{
+	width: 90%;
+	height: 38vh;
+	margin:auto;
+	margin-top: 4vh;
+}
+.cuadro-texto-project{
+	width: 30%;
+	height: 100%;
+	display: inline-block;
+}
+.conjunto-img{
+	width: 68%;
+	height: 100%;
+	display: inline-block;
+}
+.texto1{
+	width: 100%;
+	height: 100%;
+	margin:auto;
+	float: left;
+	margin-top: 2vh;
 
 }
-.cuadrado1{
-	width: 100%;
-	display: block;
-	margin-top: 20px;
+.botones-project{
+	background: #d9534f;
+	color: white;
+	width: 5vh;
+	height: 5.5vh;
+	border: 1px solid #d5443f;
+	border-radius:5px; 
 	margin: 0;
-	margin-top: 15px;
+	font-size: 17px;
 }
-.cuadrado2{
-	width: 100%;
-	display: block;
-	margin-top: 20px;
+.project-img{
+	width: 30%;
+	height: 35vh;
+	background: white;
+	margin-top: 2vh;
+	margin-right: 1%;
+	display: inline-block;
 }
-.redes-sociales{
-	width: 100%;
-	height: 130vh;
-}
+.img-dentro{
+	width: 95%;
+	height: 31vh;
+	background: black;
+	margin:auto; 
 }
 
+/*CLIENTES-TODO*/
+
+.clients-general{
+	width: 100%;
+	height: 55vh;
+	background: #d9534f;
+	margin-top: 2vh;
+	display: inline-block;
+}
+.centrar-texto-clientes{
+	width: 85%;
+	height: 40vh;
+	margin: auto;
+	margin-top: 2.5vh;
+}
+.caja-texto-completo{
+	width: 100%;
+	height: 35vh;
+	display: inline-block;
+}
+.col-1{
+	width: 49.5%;
+	height: 35vh;
+	display: inline-block;
+}
+.box-text-1{
+	width: 100%;
+	height: 17vh;
+	margin-bottom:3vh;
+	border-left: 5px solid white;
+	float: left;
+	padding-left: 1vh;
+}
+
+/*todo sobre el footer*/
+
+.whatare p {
+	padding: 0px 100px;
+}
+
+.weare {
+	padding: 0px 100px;
+}
+
+.ourS {
+	margin-bottom: 20px;
+}
+
+.skillscss {
+	width: 80%;
+	background: #d9534f;
+	border: 1px solid black;
+	padding: 7px;
+	color: #fff;
+	border-radius: 6px 0px 0px 6px;
+}
+
+.skillsWP {
+	width: 60%;
+	background: #5cb85c;
+	border: 1px solid black;
+	padding: 7px;
+	color: #fff;
+	border-radius: 6px 0px 0px 6px;
+}
+
+.skillsJ {
+	width: 45%;
+	background: #428bca;
+	margin-right: 50px;
+	border: 1px solid black;
+	padding: 7px;
+	color: #fff;
+	border-radius: 6px 0px 0px 6px;
+}
+
+.skillsD {
+	width: 50%;
+	background: #5bc0de;
+	border: 1px solid black;
+	padding: 7px;
+	color: #fff;
+	border-radius: 6px 0px 0px 6px;
+}
+
+.skillsPHP {
+	width: 65%;
+	background: #f0ad4e;
+	border: 1px solid black;
+	padding: 7px;
+	color: #fff;
+	border-radius: 6px 0px 0px 6px;
+}
+
+.meettext h3, .meettext p {
+	text-align: center;
+}
+
+.davidJ {
+	padding: 0px 100px;
+}
+/*TODO CONTACT*/
+
+.contact-general{
+	width: 100%;
+	height: 70vh;
+	display: inline-block;
+}
+.centrar-contact{
+	width: 85%;
+	height: 60vh;
+	margin: auto;
+	margin-top: 5vh;
+}
+.cuadro-contac3{
+	width: 31%;
+	height: 95%;
+	display: inline-block;
+}
+.cuadro-contac1{
+	width: 31%;
+	height: 100%;
+	display: inline-block;
+}
+.cuadro-contac2{
+	width: 31%;
+	height: 90%;
+	display: inline-block;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.solucion{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.input-contact{
+	width: 100%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	padding: 1vh;
+	font-size: 2.3vh;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+}
+
+.boton-contact{
+	width:25vh;
+	height: 6vh;
+	border-radius: 5px;
+	border: 1px solid #357ebd;
+	font-size: 2.5vh;
+	color:white;
+	background: #428bca;
+}
+.textarea-contact{
+	width: 100%;
+	height: 85%;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	resize: none;
+}
+
+
+
+
+
+
+
+
+
+/*RESPONSIVE*/
 @media (max-width: 768px){
 
 	.port .FR {
@@ -262,6 +468,66 @@ h1{
 		height: 100%;
 	}
 
-	
+}
 
+@media (max-width:800px ){
+.alinear-listado{
+	display: none;
+}
+.mensaje-contenedor{
+	text-align: center;
+}
+
+.cuadrado{
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+
+}
+.cuadrado1{
+	width: 100%;
+	display: block;
+	margin-top: 20px;
+	margin: 0;
+	margin-top: 15px;
+}
+.cuadrado2{
+	width: 100%;
+	display: block;
+	margin-top: 20px;
+}
+.redes-sociales{
+	width: 100%;
+	height: 95vh;
+}
+.clients-general{
+	height: 109vh;
+}
+.col-1{
+	width: 100%;
+	display: block;
+}
+.cuadro-contac1{
+	display: block;
+	width: 100%;
+}
+.cuadro-contac2{
+	display: block;
+	width: 100%;
+}
+.cuadro-contac3{
+	display: block;
+	width: 100%;
+}
+
+
+}
+@media (max-width: 900px){
+	.conjunto-img{
+		display: block;
+		width: 100%;
+	}
+	.cuadro-texto-project{
+		width: 100%;
+	}
 }
