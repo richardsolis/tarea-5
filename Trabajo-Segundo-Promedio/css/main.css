@@ -673,6 +673,10 @@ h1{
 	.whatwedo i {
 		font-size: 20px;
 	}
+
+	.whattheysay {
+    	height: 600px;
+	}
 }
 
 @media (max-width:800px ){
