@@ -33,17 +33,23 @@
 	display: inline-block;
 	background-position: top; 
 }
+
+
+
+
 /*todo sobre el nav*/
 .nav-general{
 	width: 100%;
 	height: 10vh;
 	background: #34495e;
 }
+
 .nav-alinear{
 	width: 93%;
 	height: 90%;
 	margin:auto;	
 }
+
 .contenedor-logo{
 	width: 25%;
 	height: 100%;
@@ -58,12 +64,14 @@
 	margin-top:2vh; 
 
 }
+
 .contenedor-listado{
 	width: 60%;
 	height: 100%;
 	float: right;
 	display: flex;
 }
+
 .alinear-listado{
 	width: 600px;
 	height: 50%;
@@ -74,6 +82,7 @@
 .alinear-listado ul{
 	display: flex;
 }
+
 .alinear-listado ul li{
 	list-style: none;
 	padding: 10px;
@@ -81,20 +90,25 @@
 	padding-right: 7px; 
 	border-radius: 5px;
 }
+
  ul li a{
  	text-decoration: none;
  	color: white;
  	font-size: 16px;
  }
+
 .alinear-listado ul li:hover{
  	background: #444444;
  	color:white;
  	border: none;
  }
+
 .alinear-listado a:hover{
  	color:white;
  	text-decoration: none;
  }
+
+
  /*todo sobre banner*/
  .mensaje-contenedor{
  	width: 60%;
@@ -112,7 +126,6 @@
 h1{
 	font-size: 5vh;
 }
-
 
 .FR ul {
 	list-style: none;
@@ -169,6 +182,11 @@ h1{
 	box-shadow: -1px 0px 5px -1px;
 	border: 3px solid white;
 }
+
+
+
+
+
 /*TODO REDES SOCIALES*/
 .redes-sociales{
 	width: 100%;
@@ -176,6 +194,7 @@ h1{
 	background: #2ecc71;
 	display: inline-block;
 }
+
 .general-red-sociales{
 	width: 90%;
 	height: 28vh;
@@ -183,11 +202,13 @@ h1{
 	margin-top: 4vh;
 
 }
+
 .cuadrado{
 	width: 30%;
 	height: 100%;
 	display: inline-block;
 }
+
 .cuadrado1{
 	width: 30%;
 	height: 100%;
@@ -195,20 +216,24 @@ h1{
 	margin-right: 4.5%;
 	margin-left:4.5%;
 }
+
 .cuadrado2{
 	width: 30%;
 	height: 100%;
 	display: inline-block;
 }
+
 .cuadro-texto{
 	width: 75%;
 	height: 100%;
 	float: right;
 }
+
 .tiulo-text{
 	color: white;
 	font-size: 4vh;
 }
+
 .campo-texto{
 	color: white;
 	font-size: 2.2vh;
@@ -221,22 +246,26 @@ h1{
 	height: 45vh;
 	display: inline-block;
 }
+
 .alineado-project{
 	width: 90%;
 	height: 38vh;
 	margin:auto;
 	margin-top: 4vh;
 }
+
 .cuadro-texto-project{
 	width: 30%;
 	height: 100%;
 	display: inline-block;
 }
+
 .conjunto-img{
 	width: 68%;
 	height: 100%;
 	display: inline-block;
 }
+
 .texto1{
 	width: 100%;
 	height: 100%;
@@ -245,6 +274,7 @@ h1{
 	margin-top: 2vh;
 
 }
+
 .botones-project{
 	background: #d9534f;
 	color: white;
@@ -255,6 +285,7 @@ h1{
 	margin: 0;
 	font-size: 17px;
 }
+
 .project-img{
 	width: 30%;
 	height: 35vh;
@@ -263,6 +294,7 @@ h1{
 	margin-right: 1%;
 	display: inline-block;
 }
+
 .img-dentro{
 	width: 95%;
 	height: 31vh;
@@ -279,22 +311,26 @@ h1{
 	margin-top: 2vh;
 	display: inline-block;
 }
+
 .centrar-texto-clientes{
 	width: 85%;
 	height: 40vh;
 	margin: auto;
 	margin-top: 2.5vh;
 }
+
 .caja-texto-completo{
 	width: 100%;
 	height: 35vh;
 	display: inline-block;
 }
+
 .col-1{
 	width: 49.5%;
 	height: 35vh;
 	display: inline-block;
 }
+
 .box-text-1{
 	width: 100%;
 	height: 17vh;
@@ -402,7 +438,6 @@ h1{
 	height: 35px;
 }
 
-
 .davidJ ul li i {
 	color: #fff;
 	vertical-align: middle;
@@ -419,22 +454,26 @@ h1{
 	height: 70vh;
 	display: inline-block;
 }
+
 .centrar-contact{
 	width: 85%;
 	height: 60vh;
 	margin: auto;
 	margin-top: 5vh;
 }
+
 .cuadro-contac3{
 	width: 31%;
 	height: 95%;
 	display: inline-block;
 }
+
 .cuadro-contac1{
 	width: 31%;
 	height: 100%;
 	display: inline-block;
 }
+
 .cuadro-contac2{
 	width: 31%;
 	height: 90%;
@@ -442,11 +481,13 @@ h1{
 	margin-right: 2%;
 	margin-left: 2%;
 }
+
 .solucion{
 	width: 100%;
 	height: 100%;
 	float: left;
 }
+
 .input-contact{
 	width: 100%;
 	margin-bottom: 3%;
@@ -466,6 +507,7 @@ h1{
 	color:white;
 	background: #428bca;
 }
+
 .textarea-contact{
 	width: 100%;
 	height: 85%;
@@ -474,7 +516,58 @@ h1{
 	resize: none;
 }
 
+/* SERVICIOS */
 
+.whatwedo, .whattheysay {
+	text-align: center;
+}
+
+.whattheysay {
+	height: 280px;
+}
+
+.coment {
+	text-align: left;
+	padding: 0px 80px;
+}
+
+.BG {
+	border-left: 3px solid #d9d9d9;
+}
+
+.coment p {
+	color: #999;
+}
+
+.coment h3 {
+	font-size: 20px;
+}
+
+.whatwedo i {
+	color: #fff;
+	background: #999;
+	border-radius: 300px;
+	padding: 20px;
+	font-size: 35px;
+}
+
+.SO p, .SO h3 {
+	text-align: left;
+}
+
+
+.SO {
+	padding: 0px 60px;
+	margin-bottom: 50px;
+}
+
+.SO h3 {
+	margin: 0;
+}
+
+.wwd-top {
+	margin: 40px 0px;
+}
 
 /*RESPONSIVE*/
 @media (max-width: 768px){
@@ -526,8 +619,6 @@ h1{
 		padding: 0px 5px;
 	}
 
-
-
 	.portimg {
 		height: 100%;
 		padding: 0;
@@ -541,6 +632,33 @@ h1{
 
 	.w50 {
 		width: 50%;
+	}
+
+	.Rservices {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.Rservices .col-9 {
+		padding: 0;
+	}
+
+	.SO {
+		padding: 0;
+	}
+
+	.r16 {
+		width: 16.66666%;
+		padding: 0;
+	}
+
+	.BG {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.whattheysay {
+		height: 350px;
 	}
 
 }
