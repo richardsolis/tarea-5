@@ -549,6 +549,8 @@ h1{
 	border-radius: 300px;
 	padding: 20px;
 	font-size: 35px;
+	width: 68px;
+	height: 68px;
 }
 
 .SO p, .SO h3 {
@@ -671,7 +673,7 @@ h1{
 	}
 
 	.whatwedo i {
-		font-size: 20px;
+		font-size: 30px;
 	}
 
 	.whattheysay {
