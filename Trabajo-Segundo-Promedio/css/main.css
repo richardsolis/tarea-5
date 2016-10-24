@@ -667,9 +667,48 @@ h1{
 	display: flex;
 }
 .input-comment{
-	
+	width: 45%;
+	margin-right: 3%;
+	font-size: 2.5vh;
+	padding: 1vh;
+	border-radius: 1vh;
+	border: 1px solid #cccccc;
 }
-
+.input-comment-2{
+	width: 45%;
+	margin-right: 5%;
+	font-size: 2.5vh;
+	padding: 1vh;
+	border-radius: 1vh;
+	border: 1px solid #cccccc;
+}
+.input-comment-2{
+	width: 45%;
+	margin-right: 5%;
+	font-size: 2.5vh;
+	padding: 1vh;
+	border-radius: 1vh;
+	border: 1px solid #cccccc;
+}
+.comment-text{
+	width: 94%;
+	padding: 1vh;
+	border-radius: 1vh;
+	border: 1px solid #cccccc;
+	height: 30vh;
+	margin-top: 2vh;
+	resize: none;
+}
+.boton-comment{
+	width: 30%;
+	padding: 1vh;
+	color: white;
+	background: #d9534f;
+	border-radius: 1vh;
+	font-size: 3vh;
+	margin-top: 2vh;
+	border: 1px solid #cccccc;
+}
 @media (max-width:1045px ){
  
  .contenedor-contenido{
