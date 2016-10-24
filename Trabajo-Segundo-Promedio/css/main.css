@@ -33,10 +33,6 @@
 	display: inline-block;
 	background-position: top; 
 }
-
-
-
-
 /*todo sobre el nav*/
 .nav-general{
 	width: 100%;
@@ -570,6 +566,139 @@ h1{
 .wwd-top {
 	margin: 40px 0px;
 }
+/*TODO SOBRE  BLOG-ITEM*/
+.contenedor-contenido{
+	width: 90%;
+	margin:auto;
+	margin-top:3vh;
+}
+.col-1-blog{
+	width: 70%;
+	float: right;
+
+}
+.col-2-blog{
+	width:30%;
+	float: right;
+}
+.text-blog{
+	width: 95%;
+	margin: auto;
+}
+.tags{
+	width: 50%;
+	display: flex;
+}
+.comentario-principal{
+	width: 90%;
+	height: 25vh;
+	margin: auto;
+	margin-top: 2vh;
+	display: flex;
+	background: #f5f5f5;
+}
+.comtario-1{
+	width: 95%;
+	height: 20vh;
+	margin: auto;
+	margin-top: 3vh;
+	display: flex;
+}
+.foto-comentario-1{
+	width: 18vh;
+	height: 100%;
+	background: yellow;
+}
+.text-comentario-1{
+	width: 85%;
+	height: 100%;
+	margin-left: 2%;
+}
+.text-comentario-2{
+	width: 100%;
+	height: 100%;
+	margin-left: 2%;
+}
+.comentario-secundario{
+	width: 90%;
+	height: 25vh;
+	margin-top: 2vh;
+	display: flex;
+	background: #f5f5f5;
+}
+.caja-comentario-2{
+	display: flex;
+}
+.circulo{
+	width: 10vh;
+	height: 10vh;
+	border-radius: 5vh;
+	background-image: url(../images/blog/avatar1.png);
+	background-size: cover; 
+}
+.circulo-2{
+	width: 10vh;
+	height: 10vh;
+	border-radius: 5vh;
+	background-image: url(../images/blog/avatar2.png);
+	background-size: cover; 
+}
+.circulo-3{
+	width: 10vh;
+	height: 10vh;
+	border-radius: 5vh;
+	background-image: url(../images/blog/avatar3.png);
+	background-size: cover; 
+}
+.comentario-secundario-2{
+	width: 90%;
+	height: 20vh;
+	margin-top: 2vh;
+	display: flex;
+	background: #f5f5f5;
+}
+.caja-comentario-2-2{
+	display: flex;
+	margin-left: 10vh;
+	margin-top: 2vh;
+}
+.commet{
+	width: 100%;
+	display: flex;
+}
+.input-comment{
+	
+}
+
+@media (max-width:1045px ){
+ 
+ .contenedor-contenido{
+	width: 100%;
+ }
+ .col-2-blog{
+	width:100%;
+	float: right;
+}
+.col-1-blog{
+	width: 100%;
+	float: left;
+	padding: 0;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*RESPONSIVE*/
 @media (max-width: 768px){
@@ -603,7 +732,7 @@ h1{
 
 	.port .FR {
 		margin: 20px 0px;
-		width: 158px;
+		width: 205px;
 	}
 
 	.row {
@@ -679,6 +808,7 @@ h1{
 	.whattheysay {
     	height: 600px;
 	}
+	
 }
 
 @media (max-width:800px ){
@@ -749,5 +879,18 @@ h1{
 @media (max-width: 360px){
 	.whattheysay {
     	height: 600px;
+	}
+	.comentario-principal{
+	width: 100%;
+	height: 32vh;
+	}
+	.comtario-1{
+	width: 100%;
+	}
+	.comentario-secundario{
+	height: 32vh;
+	}
+	.comentario-secundario-2{
+		height: 28vh;
 	}
 }
