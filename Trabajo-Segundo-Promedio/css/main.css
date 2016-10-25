@@ -566,11 +566,13 @@ h1{
 .wwd-top {
 	margin: 40px 0px;
 }
+
 /*TODO SOBRE  BLOG-ITEM*/
 .contenedor-contenido{
 	width: 90%;
 	margin:auto;
 	margin-top:3vh;
+	height: 2000px;
 }
 .col-1-blog{
 	width: 70%;
@@ -869,6 +871,10 @@ h1{
 	.input-comment-2{
 		width: 100%;
 	}
+
+	.contact-general {
+		height: 1100px;
+	}
 }
 
 @media (max-width:800px ){
@@ -878,6 +884,8 @@ h1{
 	.mensaje-contenedor{
 		text-align: center;
 	}
+
+
 	
 	.cuadrado{
 		display: block;
@@ -959,6 +967,7 @@ h1{
  
  .contenedor-contenido{
 	width: 100%;
+	height: 2700px;
  }
  .col-2-blog{
 	width:100%;
