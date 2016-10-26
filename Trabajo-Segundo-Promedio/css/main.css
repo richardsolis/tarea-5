@@ -793,44 +793,14 @@ h1{
 
 /* BLOG */
 
-.blog-sec {
-	background: #e6e6e6;
-	height: 1500px;
+.button-blog{
+	padding: 1.5vh 2.5vh;
+	border-right:  3px solid grey;
+	font-size: 2vh;
+	background: none;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
 }
-
-.main-blog-text {
-	padding: 0px 30px;
-}
-
-
-.main-blog li{
-	display: inline-block;
-	margin-right: 10px;
-}
-
-.main-blog i {
-	color: #999;
-}
-
-.main-blog img {
-	border-radius: 5px 5px 0px 0px;
-}
-
-.main-blog {
-	background: #fff;
-	margin: 50px 0px 20px 60px; 
-	padding-bottom: 20px;
-	border-radius: 5px;
-}
-
-.btn-blog {
-	border-radius: 5px;
-	background: #fff;
-	color: #000;
-	border: 1px solid #ccc;
-	padding: 6px;
-}
-
 
 
 /*RESPONSIVE*/
