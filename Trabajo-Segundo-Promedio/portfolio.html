@@ -25,27 +25,41 @@
 </head><!--/head-->
 <div class="contenedor-total">
 <body>
-    <div class="nav-general">
-      <div class="nav-alinear">
-        <div class="contenedor-logo">
-          <div class="contenido-logo">
-            <img src="./images/logo.png">
-           </div>
-          </div>
-      <div class="contenedor-listado">
-        <div class="alinear-listado">
-       <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="portfolio.html">Porlfolio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        </div>
-      </div>
-      </div>
-    </div>
+    <header class="clearfix">
+        <div class="container" style="width:100%;" >
+            <div class="logo">
+                <h1><a href="index.html"><img src="images/logo.png"></a></h1>
+            </div>
+            <div class="toggle-menu">
+                <a href=""><img src="images/boton-de-menu.svg" width="35" height="35"></a>
+            </div>
+            <nav class="menu-desktop">
+                <div class="menu">
+                    <ul>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portafolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="contact-us.html">Contacto</a></li>
+                     </ul>
+                 </div>
+            </nav>
+         </div>
+    </header>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $(".toggle-menu").click(function() {
+            event.preventDefault();
+            if($(".menu-desktop").hasClass("visible")) {
+                $(".menu-desktop").removeClass("visible");
+                } else {
+                    $(".menu-desktop").addClass("visible");
+                }
+        });
+    </script>
     <section class="row port">
          <div class="col-8 FL AU">
             <h2>Blog</h2>
